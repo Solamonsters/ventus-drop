@@ -99,15 +99,15 @@ export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
   enabled: true,
 
-  startDate: date("2 Apr 2022 20:30:00 UTC"),
-  endDate: date("2 Apr 2022 21:00:00 UTC"),
+  startDate: date("2 Apr 2022 21:30:00 UTC"),
+  endDate: date("2 Apr 2022 21:59:50 UTC"),
   countdown: false,
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   //Wallet Title and Description
   title: "Ventus Drop",
-  desc: "Mint Phase: OG Mint Pass",
+  desc: "Mint Phase: Whitelist",
 
   //Enable Custom HTML Below
   enableCustomHTML: false,
