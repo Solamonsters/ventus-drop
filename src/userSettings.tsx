@@ -39,7 +39,7 @@ function date(date: string) {
 //
 
 export const mintPanic = {
-  enabled: false,
+  enabled: true,
   title: "Minting Paused",
   desc: "We have dectected and issue while minting. Standby for an update",
 };
@@ -100,7 +100,7 @@ export const whitelistSettings: WhitelistSettings = {
   enabled: true,
 
   startDate: date("2 Apr 2022 21:30:00 UTC"),
-  endDate: date("2 Apr 2022 21:59:50 UTC"),
+  endDate: date("2 Apr 2022 21:59:00 UTC"),
   countdown: false,
   //Example date below
   // date('29 2021 00:00:00 GMT')
