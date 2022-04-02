@@ -39,7 +39,7 @@ function date(date: string) {
 //
 
 export const mintPanic = {
-  enabled: true,
+  enabled: false,
   title: "Minting Paused",
   desc: "We have dectected and issue while minting. Standby for an update",
 };
