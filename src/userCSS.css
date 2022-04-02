@@ -1,0 +1,103 @@
+:root {
+  /* Main Settings  */
+  --main-background-color: rgb(235, 235, 235);
+
+  --text-primary-color: rgb(255, 255, 255);
+  --text-secondary-color: rgb(255, 255, 255);
+
+  /* Nav Settings  */
+  --nav-link-color: rgb(0, 0, 0);
+  --nav-link-hover-color: rgb(87, 87, 87);
+  --nav-link-hover-background-color: none;
+  --nav-background-color: none;
+  --nav-height: 150px;
+  --nav-logo-width: 125px;
+  --nav-logo-font-size: 16px;
+
+  /* Mobile Nav Settings  */
+
+  --mobile-nav-background-color: rgb(155, 155, 155);
+  --mobile-nav-logo-height: 100px;
+  --mobile-nav-link-color: rgb(65, 65, 65);
+  --mobile-nav-link-hover-color: rgb(29, 29, 29);
+  --mobile-nav-link-size: 20px;
+
+  /* Card Settings  */
+  --card-background-color: rgb(216, 216, 216);
+  --card-border-radius: 10px;
+
+  /* Minting Area */
+  --minting-box-color: #151a1f;
+  --minting-box-heading-color: white;
+  --minting-box-info-box-color: rgb(65, 65, 65);
+  --minting-box-text-color: white;
+
+  /* Minting Button */
+  --minting-button-color: linear-gradient(0deg, #00239f 0%, #0030db 100%);
+  --minting10-button-color: linear-gradient(0deg, #00239f 0%, #0030db 100%);
+  --minting-button-text-color: white;
+}
+
+.mintCard {
+  display: flex;
+  text-align: center;
+}
+
+.nav-container {
+  background-color: rgb(0, 0, 0);
+  border-bottom: 2px solid white;
+}
+
+.body {
+  background-color: black;
+  background-image: url("https://raw.githubusercontent.com/Solamonsters/solamonsters.github.io/main/assets/bg-4.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  font: "Courier New";
+}
+
+.headerTitle {
+  color: white;
+  font: "Courier New";
+  font-size: calc(20px + 2vw);
+}
+
+.loading {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.mintBox {
+  width: 80%;
+}
+
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mintPics {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  color: white;
+  background-color: rgb(41, 41, 41);
+}
+
+.mintCMData {
+  background-color: rgb(41, 41, 41);
+  border-radius: 0px;
+  color: white;
+  padding: 5%;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.mint10ButtonFormat {
+  width: 50%;
+  margin: auto;
+}
