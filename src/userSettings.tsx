@@ -41,7 +41,7 @@ function date(date: string) {
 export const mintPanic = {
   enabled: true,
   title: "Minting Paused",
-  desc: "We have dectected and issue while minting. Standby for an update",
+  desc: "We have dectected an issue while minting. Standby for an update",
 };
 
 ///                             ///
