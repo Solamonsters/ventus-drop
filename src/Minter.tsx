@@ -422,7 +422,7 @@ const Home = (props: HomeProps) => {
                           (itemsAvailable !== null && mintingTotal !== null ? (
                             <div className="mintCMData">
                               <p>Minted:</p>
-                              <p>{(mintingTotal+ 52) + "/" + (itemsAvailable+52)} ({((mintingTotal+ 52)/(itemsAvailable+52)*100).toFixed(0)}%)</p>
+                              <p>{(mintingTotal+ 52) + "/" + (itemsAvailable+52)}</p>
                             </div>                            
                           ) : (
                             <p className="loading"></p>
