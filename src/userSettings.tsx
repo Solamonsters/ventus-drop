@@ -39,10 +39,12 @@ function date(date: string) {
 //
 
 export const mintPanic = {
-  enabled: false,
-  title: "Minting Paused",
-  desc: "We have dectected an issue while minting. Standby for an update",
+  enabled: true,
+  title: "Ventus Drop",
+  desc: "",
 };
+  // title: "Ventus Drop Closed",
+  // desc: "We have dectected an issue while minting. Standby for an update",
 
 ///                             ///
 ///      Welcome Settings       ///
